@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TWE CRAFT</title>
     <link rel="stylesheet" href="./bootstrap.css">
-    <link rel="stylesheet" href="./styles.js">
+    <link rel="stylesheet" href="./styles.css">
 
 </head>
 
@@ -32,9 +32,9 @@
                         Select Base Piece
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="basepiece">
-                        <li><button class="dropdown-item" type="button">Esther</button></li>
-                        <li><button class="dropdown-item" type="button">Fruzsina</button></li>
-                        <li><button class="dropdown-item" type="button">Nicole</button></li>
+                        <li><button id="esther" class="dropdown-item" type="button">Esther</button></li>
+                        <li><button id="fruzsina" class="dropdown-item" type="button">Fruzsina</button></li>
+                        <li><button id="nicole" class="dropdown-item" type="button">Nicole</button></li>
                     </ul>
                 </div>
             </div>
@@ -42,7 +42,8 @@
         <div class="row">
             <div class="col-4"></div>
             <div class="col-4">
-                <img src="./base/nicolejacket.jpg" class="img-fluid" style="">
+                <img id="mainimg" src="./base/nicolejacket.jpg" class="img-fluid" style="">
+                <img id="collar" src="./zipon/collar.png" alt="" style="display: none;">
             </div>
             <div class="col-4">
                 <div class="row">
@@ -52,22 +53,21 @@
                             Choose Half-Sleeve
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="halfsleeve">
-                            <li><button class="dropdown-item" type="button">Esther</button></li>
-                            <li><button class="dropdown-item" type="button">Fruzsina</button></li>
-                            <li><button class="dropdown-item" type="button">Nicole</button></li>
+                            <li><button id="halfsleeveblue" class="dropdown-item" type="button">Blue</button></li>
+                            <li><button id="halfsleevepink" class="dropdown-item" type="button">Pink</button></li>
+                            <li><button id="halfsleevepython" class="dropdown-item" type="button">Python</button></li>
                         </ul>
                     </div>
                 </div>
                 <div class="row">
                     <div class="dropdown mt-5">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="collar"
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="collartoggle"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Swap Collar
                         </button>
-                        <ul class="dropdown-menu" aria-labelledby="collar">
-                            <li><button class="dropdown-item" type="button">Esther</button></li>
-                            <li><button class="dropdown-item" type="button">Fruzsina</button></li>
-                            <li><button class="dropdown-item" type="button">Nicole</button></li>
+                        <ul class="dropdown-menu" aria-labelledby="collartoggle">
+                            <li><button id="collargold" class="dropdown-item" type="button">Gold</button></li>
+                            <li><button id="collarblack" class="dropdown-item" type="button">Black</button></li>
                         </ul>
                     </div>
                 </div>
