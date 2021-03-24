@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TWE CRAFT</title>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./styles.js">
+
+</head>
+
+<style>
+    #content {
+        margin-top: 100px;
+    }
+</style>
+
+<body>
+    <div id="content" class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>TWE Craft: Isolated Test</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="dropdown d-flex justify-content-center m-5">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="basepiece"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Select Base Piece
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="basepiece">
+                        <li><button class="dropdown-item" type="button">Esther</button></li>
+                        <li><button class="dropdown-item" type="button">Fruzsina</button></li>
+                        <li><button class="dropdown-item" type="button">Nicole</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <img src="./base/nicolejacket.jpg" class="img-fluid" style="">
+            </div>
+            <div class="col-4">
+                <div class="row">
+                    <div class="dropdown mt-5">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="halfsleeve"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Choose Half-Sleeve
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="halfsleeve">
+                            <li><button class="dropdown-item" type="button">Esther</button></li>
+                            <li><button class="dropdown-item" type="button">Fruzsina</button></li>
+                            <li><button class="dropdown-item" type="button">Nicole</button></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="dropdown mt-5">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="collar"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Swap Collar
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="collar">
+                            <li><button class="dropdown-item" type="button">Esther</button></li>
+                            <li><button class="dropdown-item" type="button">Fruzsina</button></li>
+                            <li><button class="dropdown-item" type="button">Nicole</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="./jquery-3.6.0.slim.min.js"></script>
+<script src="./bootstrap.bundle.js"></script>
+<script src="./app.js"></script>
+
+</html>
